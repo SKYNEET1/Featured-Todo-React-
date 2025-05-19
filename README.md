@@ -1,12 +1,42 @@
-# React + Vite
+# Advanced-Todo-React-
+![image](https://github.com/user-attachments/assets/d6d5a635-e2f7-4e5f-b81e-ed774d97019a)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Todo App
 
-Currently, two official plugins are available:
+A simple and interactive Todo App built using **React**, implementing core features like adding, deleting, and marking tasks as done. This app uses **Tailwind CSS** for styling and has a clean, responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks
+- Mark tasks as done (with strikethrough and color change)
+- Delete individual tasks
+- Clear all tasks
+- Simple and clean UI using Tailwind CSS
+
+---
+
+## 🔧 Tech Stack
+
+- **React** – Frontend library
+- **Tailwind CSS** – Utility-first CSS framework
+- **useState & useRef** – React hooks for managing state and input
+
+---
+
+## 📁 Folder Structure
+
+```bash
+todo-app/
+├── src/
+│   ├── components/
+│   │   ├── Todo.jsx
+│   │   ├── Todolist.jsx
+│   │   └── Clear.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── package.json
+└── tailwind.config.js
