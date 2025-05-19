@@ -1,5 +1,6 @@
 # Advanced-Todo-React-
-![image](https://github.com/user-attachments/assets/d6d5a635-e2f7-4e5f-b81e-ed774d97019a)
+![image](https://github.com/user-attachments/assets/e04b9bb5-d989-49ff-8d49-7494fc6ec4c6)
+
 
 # 📝 React Todo App
 
